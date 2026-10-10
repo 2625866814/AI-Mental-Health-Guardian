@@ -1,0 +1,38 @@
+# 依赖
+node_modules/
+
+# 环境变量（含真实密钥，严禁提交）
+.env
+.env.local
+.env.*.local
+
+# 上传文件与用户数据
+uploads/
+backend/data/
+*.db
+*.sqlite
+
+# 日志
+*.log
+logs/
+
+# 测试音频等大文件
+*.wav
+*.pcm
+*.mp3
+
+# 构建产物
+dist/
+build/
+
+# IDE 与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+~$*
+*.tmp
+*.temp
